@@ -2,19 +2,15 @@ from ultralytics import YOLO
 import cv2
 
 # Load your YOLO model
-model = YOLO("best.pt")
-
+model = YOLO("best.pt") #add your trained model to detect helmet
 # Open webcam
 cap = cv2.VideoCapture(0)
-
 while cap.isOpened():
     success, frame = cap.read()
     if not success:
         break
-
     # Run YOLO inference
     results = model(frame)
-
     # Copy frame to draw on
     filtered_frame = frame.copy()
 
