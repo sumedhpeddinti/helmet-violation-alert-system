@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 # Path to the folder containing roll-number-labeled images
-images_path = r"C:\Users\sumed\OneDrive\Desktop\FINAL\known_faces"
+images_path = r"C:\Users\known_faces"
 
 # Initialize lists for known face encodings and labels
 known_face_encodings = []
