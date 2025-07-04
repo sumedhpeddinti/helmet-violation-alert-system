@@ -14,7 +14,7 @@ A real-time safety enforcement system using **YOLOv11** for helmet detection and
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Use
 
 - Python  
 - OpenCV  
