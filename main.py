@@ -9,11 +9,11 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
 # --- CONFIGURATION ---
-YOLO_MODEL = "hemletYoloV8_100epochs.pt"
-KNOWN_FACES_DIR = r"C:\Users\sumed\OneDrive\Desktop\FINAL\known_faces"
-EMAIL_CSV = "emails.csv"
-SENDGRID_API_KEY = "YOUR_SENDGRID_API_KEY"  # Replace with your actual SendGrid key
-FROM_EMAIL = "your@email.com"  # Replace with your verified sender email
+YOLO_MODEL = "best.pt"
+KNOWN_FACES_DIR = r"C:\Users\known_faces"
+EMAIL_CSV = "student_data.csv"
+SENDGRID_API_KEY = "     "  # Replace with your actual SendGrid key
+FROM_EMAIL = "     @email.com"  # Replace with your verified sender email
 
 # --- Load Emails ---
 email_df = pd.read_csv(EMAIL_CSV)
