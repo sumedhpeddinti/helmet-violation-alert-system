@@ -35,4 +35,4 @@ A real-time safety enforcement system using **YOLOv11** for helmet detection and
 
 ---
 
-## (We used the face_recognition library as it works well with a single image per person. Other methods like FaceNet or DeepFace need large datasets, complex training, or higher system requirements.)
+We used the face_recognition library as it works well with a single image per person. Other methods like FaceNet or DeepFace need large datasets, complex training.
