@@ -1,8 +1,7 @@
 
 # 🚨 Helmet and Face Recognition-Based Safety System
 
-A real-time safety enforcement system using **YOLOv11** for helmet detection and the **face_recognition** library for identifying individuals. If a person is detected without a helmet, the system automatically identifies them and sends a **challan (fine notice)** to their registered email. Ideal for monitoring safety compliance in colleges, industries, and construction sites.
-
+A real-time safety enforcement system using **YOLOv11** for helmet detection and the **face_recognition** library for identifying individuals. If a person is detected without a helmet, the system automatically identifies them and sends a **challan (fine notice)** to their registered email. Ideal for monitoring safety compliance in colleges.
 ---
 
 ## ⚙️ Features
