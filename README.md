@@ -25,7 +25,7 @@ A real-time safety enforcement system using **YOLOv11** for helmet detection and
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. Live video feed is captured.  
 2. **YOLOv11** checks for helmet presence.  
@@ -34,3 +34,5 @@ A real-time safety enforcement system using **YOLOv11** for helmet detection and
    - A challan (fine notice) is emailed with their details.  
 
 ---
+
+## (We used the face_recognition library as it works well with a single image per person. Other methods like FaceNet or DeepFace need large datasets, complex training, or higher system requirements.)
