@@ -1,12 +1,12 @@
 
 # 🚨 Helmet and Face Recognition-Based Safety System
 
-A real-time safety enforcement system using **YOLOv11** for helmet detection and the **face_recognition** library for identifying individuals. If a person is detected without a helmet, the system automatically identifies them and sends a **challan (fine notice)** to their registered email. Ideal for monitoring safety compliance in colleges.
+A real-time safety enforcement system using **YOLOv8** for helmet detection and the **face_recognition** library for identifying individuals. If a person is detected without a helmet, the system automatically identifies them and sends a **challan (fine notice)** to their registered email. Ideal for monitoring safety compliance in colleges.
 ---
 
 ## ⚙️ Features
 
-✅ Real-time helmet detection using **YOLOv11**  
+✅ Real-time helmet detection using **YOLOv8**  
 ✅ Face recognition using the **face_recognition** library  
 ✅ Automated challan with fine details sent via email  
 ✅ Student data managed through a `.csv` file  
@@ -18,7 +18,7 @@ A real-time safety enforcement system using **YOLOv11** for helmet detection and
 
 - Python  
 - OpenCV  
-- YOLOv11 (Helmet Detection)  
+- YOLOv8 (Helmet Detection)  
 - face_recognition (Face Identification)  
 - Pandas  
 - SMTP (Email Alerts)  
@@ -28,7 +28,7 @@ A real-time safety enforcement system using **YOLOv11** for helmet detection and
 ##  How It Works
 
 1. Live video feed is captured.  
-2. **YOLOv11** checks for helmet presence.  
+2. **YOLOv8** checks for helmet presence.  
 3. If helmet is absent:  
    - **face_recognition** identifies the person.  
    - A challan (fine notice) is emailed with their details.  
